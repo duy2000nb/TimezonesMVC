@@ -1,0 +1,58 @@
+﻿@model List<TimezoneResponseModel>
+
+@{
+    var contents = Model;
+    int length = contents.Count;
+    int totalCol = 3;
+    int totalRow = 3;
+    for (int row = 0; row < totalRow; row++)
+    {
+    <div class="row">
+        @for (int col = 0; col < totalCol; col++)
+        {
+            if (row * totalRow + col >= length)
+                goto EndLoop;
+            var json = Json.Serialize(@contents[row * totalRow + col]);
+            var stringJson = json.ToString();
+            <button type="button" class="btn btn-primary col m-2" data-toggle="modal" data-target="#TimezoneModal" onclick="DetailTimezones('@stringJson')">
+                <h4 class="">@contents[row * totalRow + col].code</h4>
+                <h6 class="">@contents[row * totalRow + col].name</h6>
+                <h6 class="">@contents[row * totalRow + col].description</h6>
+            </button>
+        }
+    </div>
+    }
+    EndLoop:;
+}
+<div class="modal fade" id="TimezoneModal" tabindex="-1" aria-labelledby="TimezoneModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="TimezoneModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function DetailTimezones(stringJson) {
+        json = JSON.parse(stringJson);
+
+        stringHtml = "<p>Code : " + json.code + "</p>";
+        stringHtml += "<p>Description : " + json.description + "</p>";
+        stringHtml += "<p>Offset : " + json.offset + "</p>";
+        stringHtml += "<p>IsDTS : " + json.isDTS + "</p>";
+        stringHtml += "<p>Order : " + json.order + "</p>";
+        stringHtml += `<p class="mb-1">UTC</p>`;
+        json.utc.forEach(s => {
+            stringHtml += `<span class="badge rounded-pill bg-primary ms-1 me-1">` + s + "</span>";
+        })       
+
+        $(".modal-title").text(json.name);
+        $(".modal-body").html(stringHtml);
+        $("#TimezoneModal").modal("show");
+    }
+</script>

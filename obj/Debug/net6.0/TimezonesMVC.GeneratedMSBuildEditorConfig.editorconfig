@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TimezonesMVC
+build_property.RootNamespace = TimezonesMVC
+build_property.ProjectDir = D:\Code\C#\SERP\TimezonesMVC\TimezonesMVC\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Code\C#\SERP\TimezonesMVC\TimezonesMVC
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Code/C\#/SERP/TimezonesMVC/TimezonesMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Code/C\#/SERP/TimezonesMVC/TimezonesMVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Code/C\#/SERP/TimezonesMVC/TimezonesMVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Code/C\#/SERP/TimezonesMVC/TimezonesMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Code/C\#/SERP/TimezonesMVC/TimezonesMVC/Views/Timezones/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZXpvbmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Code/C\#/SERP/TimezonesMVC/TimezonesMVC/Views/Timezones/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZXpvbmVzXFNlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Code/C\#/SERP/TimezonesMVC/TimezonesMVC/Views/Timezones/_GridTimezonesPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZXpvbmVzXF9HcmlkVGltZXpvbmVzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Code/C\#/SERP/TimezonesMVC/TimezonesMVC/Views/Timezones/_Paging.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZXpvbmVzXF9QYWdpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Code/C\#/SERP/TimezonesMVC/TimezonesMVC/Views/Timezones/_SearchBox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZXpvbmVzXF9TZWFyY2hCb3guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Code/C\#/SERP/TimezonesMVC/TimezonesMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Code/C\#/SERP/TimezonesMVC/TimezonesMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Code/C\#/SERP/TimezonesMVC/TimezonesMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-kcqq91paw3

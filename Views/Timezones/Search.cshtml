@@ -1,0 +1,33 @@
+﻿@model TimezoneResponseModelPagination
+@{
+
+    ViewData["Title"] = "Timezone";
+    var name = ViewBag.Name;
+    var contents = Model.content;
+
+    Func<int?, string> generateUrl = (int? _pagenumber) =>
+    {
+        return Url.RouteUrl("search", new { name = name,  page = _pagenumber, size = 9 });
+    };
+
+    var datapaging = new
+    {
+        currentPage = Model.currentPage,    // trang hiện tại
+        countPages = Model.totalPages,   // tổng  số trang
+        generateUrl = generateUrl
+    };
+}
+
+<div class=".container w-75 mx-auto">
+    <div>
+        @await Html.PartialAsync("_SearchBox")
+    </div>
+    <div>
+        @await Html.PartialAsync("_GridTimezonesPartial", contents)
+    </div>
+    <div>
+        @await Html.PartialAsync("_Paging", datapaging)
+    </div>
+</div>
+
+
